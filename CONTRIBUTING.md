@@ -1,4 +1,4 @@
-# Contributing to Save the CHildren Icon Font
+# Contributing to Save the Children Icon Font
 
 Looking to contribute something? **Here's how you can help.**
 

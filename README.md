@@ -4,7 +4,7 @@ This project aims to create a standard icon font for Save the Children, using ea
 
 ## Getting Started
 
-Copy the fonts and CSS directory into your project. In the <head> of your HTML, reference the location to your stc-icons.css.
+Copy the fonts and CSS directory into your project. In the &lt;head&gt; of your HTML, reference the location to your stc-icons.css.
 
 You can then use the icon classes in your HTML code:
 
@@ -19,7 +19,7 @@ You can view the list of available icons by opening the index.html file.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on design principles, and the process for submitting pull requests to us.
 
 ## Authors
 

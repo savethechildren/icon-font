@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'stcIcons';
+  src: url("../fonts/stcIcons.eot?zg5e7n");
+  src: url("../fonts/stcIcons.eot?zg5e7n#iefix") format("embedded-opentype"), url("../fonts/stcIcons.ttf?zg5e7n") format("truetype"), url("../fonts/stcIcons.woff?zg5e7n") format("woff"), url("../fonts/stcIcons.svg?zg5e7n#stcIcons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.fstc {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stcIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.fstc-pound:before {
+  content: ""; }
+
+.fstc-arrow-down:before {
+  content: ""; }
+
+.fstc-arrow-left:before {
+  content: ""; }
+
+.fstc-arrow-reverse:before {
+  content: ""; }
+
+.fstc-arrow-right:before {
+  content: ""; }
+
+.fstc-arrow-up:before {
+  content: ""; }
+
+.fstc-bottle:before {
+  content: ""; }
+
+.fstc-clock:before {
+  content: ""; }
+
+.fstc-cup:before {
+  content: ""; }
+
+.fstc-equal:before {
+  content: ""; }
+
+.fstc-menu:before {
+  content: ""; }
+
+.fstc-mortar:before {
+  content: ""; }
+
+.fstc-book:before {
+  content: ""; }
+
+.fstc-speed:before {
+  content: ""; }
+
+.fstc-speech-bubble:before {
+  content: ""; }
+
+.fstc-medicine:before {
+  content: ""; }
+
+.fstc-girl:before {
+  content: ""; }
+
+.fstc-boy:before {
+  content: ""; }
+
+.fstc-arms:before {
+  content: ""; }
+
+.fstc-circle:before {
+  content: ""; }
+
+.fstc-cross:before {
+  content: ""; }
+
+.fstc-dollar:before {
+  content: ""; }
+
+.fstc-donors:before {
+  content: ""; }
+
+.fstc-drop:before {
+  content: ""; }
+
+.fstc-euro:before {
+  content: ""; }
+
+.fstc-heart:before {
+  content: ""; }
+
+.fstc-nappies:before {
+  content: ""; }
+
+.fstc-pencil:before {
+  content: ""; }
+
+.fstc-pie-chart:before {
+  content: ""; }
+
+.fstc-plate:before {
+  content: ""; }
+
+.fstc-scarf:before {
+  content: ""; }
+
+.fstc-search:before {
+  content: ""; }
+
+.fstc-steps:before {
+  content: ""; }
+
+.fstc-stethoscope:before {
+  content: ""; }
+
+.fstc-tent:before {
+  content: ""; }

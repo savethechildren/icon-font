@@ -5,11 +5,13 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   height="176"
+   width="176"
    version="1.1"
    id="svg2"
    viewBox="0 0 176 176">
   <metadata
-     id="metadata25735">
+     id="metadata16699">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -21,9 +23,9 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs25733" />
+     id="defs16697" />
   <g
-     transform="matrix(0.86363637,0,0,0.86363637,12,27.097814)"
+     transform="matrix(0.86363637,0,0,0.86363637,12,15.097814)"
      id="g26277">
     <path
        id="path4250"

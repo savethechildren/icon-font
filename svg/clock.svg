@@ -5,9 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 176 176"
+   height="176"
+   width="176"
+   version="1.1"
    id="svg2"
-   version="1.1">
+   viewBox="0 0 176 176">
   <metadata
      id="metadata16699">
     <rdf:RDF>
@@ -23,7 +25,7 @@
   <defs
      id="defs16697" />
   <g
-     transform="matrix(1.2119467,0,0,1.2119467,-93.433441,17.931844)"
+     transform="matrix(1.2119467,0,0,1.2119467,-94.8474,5.931844)"
      style="fill:#000000"
      id="g17465">
     <g

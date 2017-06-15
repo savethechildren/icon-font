@@ -4,12 +4,11 @@
  * This simple PHP script cleans up the SVGs to remove sizes, id and style attributes
  */
 
-if ($handle == opendir('svg')) {
-    echo "Directory handle: $handle\n";
-    echo "Entries:\n";
+if ($handle = opendir('svg')) {
 
     while (false !== ($entry = readdir($handle))) {
-      $file = 'svg/'.$entry;
+      try {
+        $file = 'svg/'.$entry;
        if(mime_content_type($file) == "image/svg+xml") {
          $dom = new DOMDocument;
           $dom->load($file);
@@ -41,7 +40,15 @@ if ($handle == opendir('svg')) {
          $output = $dom->saveXML();
          
          file_put_contents ( $file , $output );
+      print "<p>Successfully cleaned up $entry</p>\r\n";
        }
+       
+    }
+    
+    catch(Exception $e) {
+      print "<p style='color:red'>error cleaning up $entry</p>\r\n";
+    }
+    
     }
 
     closedir($handle);

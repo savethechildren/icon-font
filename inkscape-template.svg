@@ -28,9 +28,9 @@
      id="namedview10"
      showgrid="true"
      showguides="true"
-     inkscape:zoom="2.7330223"
-     inkscape:cx="69.131126"
-     inkscape:cy="85.560345"
+     inkscape:zoom="4.1131551"
+     inkscape:cx="98.503984"
+     inkscape:cy="86.627128"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -43,7 +43,7 @@
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="22.499999,180"
+       position="24,28"
        orientation="1,0"
        id="guide4148"
        inkscape:label=""
@@ -57,14 +57,14 @@
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="11.25,191.24999"
+       position="12,28"
        orientation="1,0"
        id="guide4152"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-41.249999,11.25"
+       position="-41.249999,12"
        orientation="0,1"
        id="guide4154"
        inkscape:label=""
@@ -78,7 +78,7 @@
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-44.999999,22.499999"
+       position="44,24"
        orientation="0,1"
        id="guide4158"
        inkscape:label=""
@@ -95,8 +95,8 @@
        type="xygrid"
        id="grid4162"
        empspacing="3"
-       spacingx="3.7499999"
-       spacingy="3.7499999"
+       spacingx="4"
+       spacingy="4"
        enabled="true"
        originx="0"
        originy="0"

@@ -15,7 +15,7 @@ Copy the fonts and CSS directory into your project. In the &lt;head&gt; of your 
 
 You can then use the icon classes in your HTML code:
 
-<i class="fstc fstc-circle"></i>
+`<i class="fstc fstc-circle"></i>`
 
 You can view the list of available icons by opening the index.html file.
 

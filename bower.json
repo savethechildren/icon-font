@@ -9,11 +9,12 @@
     "scss/stc-icons.scss"
   ],
   "ignore": [
-    "*/.*",
+    "**/.*",
     "*.json",
     "svg",
     "*.md",
-    "*.svg",
+    "*.yml",
+    ".gitignore",
     "*.html"
   ]
 }

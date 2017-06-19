@@ -4,6 +4,13 @@ This project aims to create a standard icon font for Save the Children, using ea
 
 ## Getting Started
 
+Several quick start options are available:
+
+- [Download the latest release.](https://github.com/savethechildren/icon-font/archive/master.zip)
+- Clone the repo: `git clone https://github.com/savethechildren/icon-font.git`
+- Install with [npm](https://www.npmjs.com): `npm install savethechildren/icon-font`
+- Install with [Bower](https://bower.io): `bower install savethechildren/icon-font`
+
 Copy the fonts and CSS directory into your project. In the &lt;head&gt; of your HTML, reference the location to your stc-icons.css.
 
 You can then use the icon classes in your HTML code:

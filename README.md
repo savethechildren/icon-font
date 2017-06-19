@@ -13,6 +13,9 @@ You can then use the icon classes in your HTML code:
 You can view the list of available icons by opening the index.html file.
 
 
+##Status
+[![Build Status](https://travis-ci.org/savethechildren/icon-font.svg?branch=master)](https://travis-ci.org/savethechildren/icon-font)
+
 ## Built With
 
 * [IcoMoon](https://icomoon.io/app) - Used to generate the font from SVG icons

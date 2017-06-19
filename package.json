@@ -1,0 +1,26 @@
+{
+  "name": "stc-icons",
+  "description": "Save the Children icon font",
+  "version": "1.0.0",
+  "style": "css/stc-icons.css",
+  "keywords": ["font", "save", "children", "icon"],
+  "bugs": {
+    "url" : "http://github.com/SavetheChildren/icon-font/issues"
+  },
+  "author": {
+    "name": "Damien North"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SavetheChildren/icon-font.git"
+  },
+  "contributors": [
+    
+  ],
+  "license": "(OFL-1.1 AND MIT)",
+  "dependencies": {
+  },
+  "engines" : {
+    "node" : ">=0.10.3"
+  }
+}

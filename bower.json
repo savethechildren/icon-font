@@ -1,0 +1,19 @@
+{
+  "name": "stc-icons",
+  "description": "STC Icon Font",
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": ["OFL-1.1", "MIT"],
+  "main": [
+    "scss/stc-icons.scss"
+  ],
+  "ignore": [
+    "*/.*",
+    "*.json",
+    "svg",
+    "*.md",
+    "*.svg",
+    "*.html"
+  ]
+}

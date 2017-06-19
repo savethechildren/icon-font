@@ -13,7 +13,7 @@ You can then use the icon classes in your HTML code:
 You can view the list of available icons by opening the index.html file.
 
 
-##Status
+## Status
 [![Build Status](https://travis-ci.org/savethechildren/icon-font.svg?branch=master)](https://travis-ci.org/savethechildren/icon-font)
 
 ## Built With

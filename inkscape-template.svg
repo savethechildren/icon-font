@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 176 176"
-   id="svg2"
    version="1.1"
    inkscape:version="0.92.1 r15371"
    sodipodi:docname="inkscape-template.svg"
-   width="176"
-   height="176">
+   height="100%"
+   width="100%"
+   id="svg32">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,64 +28,64 @@
      id="namedview10"
      showgrid="true"
      showguides="true"
-     inkscape:zoom="4.1131551"
-     inkscape:cx="98.503984"
-     inkscape:cy="86.627128"
+     inkscape:zoom="4.3531034"
+     inkscape:cx="89.182692"
+     inkscape:cy="113.86462"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2">
+     inkscape:current-layer="svg32">
     <sodipodi:guide
-       position="95.999997,152"
+       position="-8,12"
        orientation="0,1"
        id="guide4146"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="24,28"
+       position="152,140"
        orientation="1,0"
        id="guide4148"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="95.999997,164"
+       position="-8,24"
        orientation="0,1"
        id="guide4150"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="12,28"
+       position="12,152"
        orientation="1,0"
        id="guide4152"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="-41.249999,12"
+       position="-8,164"
        orientation="0,1"
        id="guide4154"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="152,184"
+       position="24,152"
        orientation="1,0"
        id="guide4156"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="44,24"
+       position="-8,152"
        orientation="0,1"
        id="guide4158"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="164,180"
+       position="164,160"
        orientation="1,0"
        id="guide4160"
        inkscape:label=""

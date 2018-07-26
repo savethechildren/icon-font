@@ -18,7 +18,7 @@ New icons can be created and submitted in a pull request. They should adhere to 
 
 Icons should be designed according to the [Save the Children brand guidelines](https://globalbrand.savethechildren.net/Guidelines/STC%20English%20Global%20Brand%20Identity%20Guidelines/STC_Brand_Identity_Guidelines_LowRes.pdf).
 
-The SVG icons should also follow the keyline shapes principles set out for [Android icons](https://material.io/guidelines/style/icons.html#icons-product-icons), except the padding around the icon is not necessary. As such SVG icons should be set out within a 176x176 square. You can use the inkscape-template.svg template as a starting point.
+The SVG icons should also follow the keyline shapes principles set out for [Android icons](https://material.io/guidelines/style/icons.html#icons-product-icons). You can use the inkscape-template.svg template as a starting point.
 
 Icons should be saved in **valid and clean** SVG.
 

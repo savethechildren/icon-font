@@ -1,5 +1,6 @@
 .sass-cache/
 nbproject/
 node_modules/
-gruntfile.js
 /*.php
+.vscode/tasks.json
+package-lock.json

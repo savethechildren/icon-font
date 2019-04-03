@@ -107,13 +107,11 @@
     }
   }
 
-  /*
-  var icons = {};
+  
+  var icons = fstcIcons || {};
 
   bunker(function () {
     defineIcons('fstc', icons);
   });
 
 }());
-
-*/

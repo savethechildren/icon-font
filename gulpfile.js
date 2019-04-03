@@ -72,15 +72,14 @@ gulp.task('svgtojson', function() {
             // the first argument is an error, if you encounter one
             callback(null, json);
 
-            fs.writeFileSync('js/src/fstc-icons.js', 'var icons = ' + JSON.stringify(json) + ';')
+            fs.writeFileSync('js/src/fstc-icons.js', 'var fstcIcons = ' + JSON.stringify(json, null, 2) + ';')
         }))
 });
 
 gulp.task('concat', ['svgtojson'], function() {
     return gulp.src([
-        src.js + 'fstc-start.js',
         src.js + 'fstc-icons.js',
-        src.js + 'fstc-end.js',
+        src.js + 'fstc-main.js',
         src.js + 'fontawesome.js',
     ])
     .pipe(concat('fstc.js'))

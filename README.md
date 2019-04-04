@@ -1,6 +1,6 @@
-# Save the Children Icon Font
+# Save the Children Icons
 
-This project aims to create a standard icon font for Save the Children, using easily scalable vector graphics.
+This project aims to create a standard set of icons for Save the Children, using easily scalable vector graphics.
 
 ## Getting Started
 
@@ -11,11 +11,13 @@ Several quick start options are available:
 - Install with [npm](https://www.npmjs.com): `npm install savethechildren/icon-font`
 - Install with [Bower](https://bower.io): `bower install savethechildren/icon-font`
 
-Copy the fonts and CSS directory into your project. In the &lt;head&gt; of your HTML, reference the location to your stc-icons.css.
+Copy the dist/js directory into your project. In your HTML, reference the location to your stc-icons.js.
 
 You can then use the icon classes in your HTML code:
 
-`<i class="fstc fstc-circle"></i>`
+`<i class="fstc fa-circle"></i>`
+
+This extends the default FontAwesome icons, see [the FontAwesome documentation(https://fontawesome.com/start)] for more.
 
 You can view the list of available icons by opening the index.html file.
 
@@ -25,7 +27,7 @@ You can view the list of available icons by opening the index.html file.
 
 ## Built With
 
-* [IcoMoon](https://icomoon.io/app) - Used to generate the font from SVG icons
+* [FontAwesome](https://fontawesome.com) - Serves as the base for the icon set and its functionality.
 
 ## Contributing
 
@@ -37,6 +39,4 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on design principles,
 
 ## License
 
-The STC Icons font is licensed under the SIL OFL 1.1:
-
-* http://scripts.sil.org/OFL
+The STC Icons are licensed under CC BY 4.0 License.

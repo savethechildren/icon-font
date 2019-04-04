@@ -7,7 +7,8 @@ var src = {
 var dest = {
     css: "css/",
     fonts: "fonts/",
-    png: "png/"
+    png: "png/",
+    js: "dist/js/",
 }
 
 
@@ -50,7 +51,7 @@ gulp.task('sass', function () {
 
 
  
-gulp.task('svgtojson', function() {
+gulp.task('svg2json', function() {
     var json = {};
     var fs = require('fs');
     return gulp.src(src.svg + '*.svg')
@@ -72,21 +73,21 @@ gulp.task('svgtojson', function() {
             // the first argument is an error, if you encounter one
             callback(null, json);
 
-            fs.writeFileSync('js/src/fstc-icons.js', 'var fstcIcons = ' + JSON.stringify(json, null, 2) + ';')
+            fs.writeFileSync(src.js + 'fstc-icons.js', 'var fstcIcons = ' + JSON.stringify(json, null, 2) + ';')
         }))
 });
 
-gulp.task('concat', ['svgtojson'], function() {
+gulp.task('concat', ['svg2json'], function() {
     return gulp.src([
         src.js + 'fstc-icons.js',
         src.js + 'fstc-main.js',
         src.js + 'fontawesome.js',
     ])
-    .pipe(concat('fstc.js'))
-    .pipe(gulp.dest('js'))
-    .pipe(rename('fstc.min.js'))
+    .pipe(concat('stc-icons.js'))
+    .pipe(gulp.dest(dest.js))
+    .pipe(rename('stc-icons.min.js'))
     .pipe(uglify())
-.pipe(gulp.dest('js'));
+.pipe(gulp.dest(dest.js));
 });
 
 /**

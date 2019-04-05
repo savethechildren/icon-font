@@ -21,7 +21,7 @@ var gulp = require("gulp"),
   watch = require('gulp-watch'),
   each = require('gulp-each');
  
-gulp.task('svg2png', function () {
+gulp.task('svg2png', async function () {
     gulp.src(src.svg + '**/*.svg')
         .pipe(svg2png({
             width:192,

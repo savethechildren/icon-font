@@ -18,6 +18,7 @@ var gulp = require("gulp"),
   concat = require('gulp-concat'),
   uglify = require('gulp-uglify'),
   rename = require('gulp-rename'),
+  watch = require('gulp-watch'),
   each = require('gulp-each');
  
 gulp.task('svg2png', function () {
@@ -77,7 +78,7 @@ gulp.task('svg2json', function() {
         }))
 });
 
-gulp.task('concat', ['svg2json'], function() {
+gulp.task('concat', gulp.series('svg2json', function() {
     return gulp.src([
         src.js + 'fstc-icons.js',
         src.js + 'fstc-main.js',
@@ -85,14 +86,23 @@ gulp.task('concat', ['svg2json'], function() {
     ])
     .pipe(concat('stc-icons.js'))
     .pipe(gulp.dest(dest.js))
-    .pipe(rename('stc-icons.min.js'))
     .pipe(uglify())
-.pipe(gulp.dest(dest.js));
-});
+    .pipe(rename('stc-icons.min.js'))
+    .pipe(gulp.dest(dest.js));
+}));
 
 /**
  * Watch SASS files 
  */
 gulp.task('sass:watch', function () {
     gulp.watch(src.scss, ['sass']);
+});
+
+
+
+/**
+ * Watch SVG files 
+ */
+gulp.task('watchSVG', function () {
+    gulp.watch(src.svg, gulp.series('concat'));
 });

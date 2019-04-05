@@ -17,7 +17,7 @@ You can then use the icon classes in your HTML code:
 
 `<i class="fstc fa-circle"></i>`
 
-This extends the default FontAwesome icons, see [the FontAwesome documentation(https://fontawesome.com/start)] for more.
+This extends the default FontAwesome icons, see [the FontAwesome documentation](https://fontawesome.com/start) for more.
 
 You can view the list of available icons by opening the index.html file.
 
